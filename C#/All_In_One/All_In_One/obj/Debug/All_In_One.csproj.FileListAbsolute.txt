@@ -1,0 +1,7 @@
+C:\Users\m.fawareh\Desktop\C#\All_In_One\All_In_One\bin\Debug\All_In_One.exe.config
+C:\Users\m.fawareh\Desktop\C#\All_In_One\All_In_One\bin\Debug\All_In_One.exe
+C:\Users\m.fawareh\Desktop\C#\All_In_One\All_In_One\bin\Debug\All_In_One.pdb
+C:\Users\m.fawareh\Desktop\C#\All_In_One\All_In_One\obj\Debug\All_In_One.csproj.AssemblyReference.cache
+C:\Users\m.fawareh\Desktop\C#\All_In_One\All_In_One\obj\Debug\All_In_One.csproj.CoreCompileInputs.cache
+C:\Users\m.fawareh\Desktop\C#\All_In_One\All_In_One\obj\Debug\All_In_One.exe
+C:\Users\m.fawareh\Desktop\C#\All_In_One\All_In_One\obj\Debug\All_In_One.pdb

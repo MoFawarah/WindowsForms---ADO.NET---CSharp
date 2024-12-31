@@ -1,0 +1,8 @@
+Starting application...
+floatNumber: 10.5
+longNum: 1087778887878788787
+Application completed successfully.
+Starting application...
+floatNumber: 10.5
+longNum: 1087778887878788787
+Application completed successfully.
