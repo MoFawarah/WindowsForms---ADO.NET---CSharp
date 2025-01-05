@@ -8,3 +8,13 @@ C:\Users\m.fawareh\Desktop\C#\FirstWinFormsProject\obj\Debug\FirstWinFormsProjec
 C:\Users\m.fawareh\Desktop\C#\FirstWinFormsProject\obj\Debug\FirstWinFormsProject.csproj.CoreCompileInputs.cache
 C:\Users\m.fawareh\Desktop\C#\FirstWinFormsProject\obj\Debug\FirstWinFormsProject.exe
 C:\Users\m.fawareh\Desktop\C#\FirstWinFormsProject\obj\Debug\FirstWinFormsProject.pdb
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\FirstWinFormsProject\bin\Debug\FirstWinFormsProject.exe.config
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\FirstWinFormsProject\bin\Debug\FirstWinFormsProject.exe
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\FirstWinFormsProject\bin\Debug\FirstWinFormsProject.pdb
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\FirstWinFormsProject\obj\Debug\FirstWinFormsProject.csproj.AssemblyReference.cache
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\FirstWinFormsProject\obj\Debug\FirstWinFormsProject.Form1.resources
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\FirstWinFormsProject\obj\Debug\FirstWinFormsProject.Properties.Resources.resources
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\FirstWinFormsProject\obj\Debug\FirstWinFormsProject.csproj.GenerateResource.cache
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\FirstWinFormsProject\obj\Debug\FirstWinFormsProject.csproj.CoreCompileInputs.cache
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\FirstWinFormsProject\obj\Debug\FirstWinFormsProject.exe
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\FirstWinFormsProject\obj\Debug\FirstWinFormsProject.pdb

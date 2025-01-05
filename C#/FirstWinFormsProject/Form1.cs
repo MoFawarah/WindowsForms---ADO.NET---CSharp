@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstWinFormsProject.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -51,6 +52,27 @@ namespace FirstWinFormsProject
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Resources.download;
+            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Resources.Mohammad_Fawareh;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Image.FromFile(@"C:\Users\m.fawareh\Desktop\Per Stuff\th.jpeg");
         }
     }
 }
