@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\m.fawareh\\Desktop\\DataTable Example 1 (Create Offline Data Table and ListData)\\",
+  "WorkspaceRootPath": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\DataTable Example 1 (Create Offline Data Table and ListData)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA4FFBFC-0582-4861-96CF-8EE109B853F7}|DataTable Example 1 (Create Offline Data Table and ListData).csproj|c:\\users\\m.fawareh\\desktop\\datatable example 1 (create offline data table and listdata)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA4FFBFC-0582-4861-96CF-8EE109B853F7}|DataTable Example 1 (Create Offline Data Table and ListData).csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\datatable example 1 (create offline data table and listdata)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA4FFBFC-0582-4861-96CF-8EE109B853F7}|DataTable Example 1 (Create Offline Data Table and ListData).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -88,11 +88,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\DataTable Example 1 (Create Offline Data Table and ListData)\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\DataTable Example 1 (Create Offline Data Table and ListData)\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\DataTable Example 1 (Create Offline Data Table and ListData)\\Program.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\DataTable Example 1 (Create Offline Data Table and ListData)\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBUAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwCkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T13:39:53.461Z",
               "EditorCaption": ""

@@ -21,3 +21,10 @@ C:\Users\m.fawareh\Desktop\DataTable Example 1 (Create Offline Data Table and Li
 C:\Users\m.fawareh\Desktop\DataTable Example 1 (Create Offline Data Table and ListData)\obj\Debug\DataTable Example 1 (Create Offline Data Table and ListData).csproj.CoreCompileInputs.cache
 C:\Users\m.fawareh\Desktop\DataTable Example 1 (Create Offline Data Table and ListData)\obj\Debug\DataTable Example 1 (Create Offline Data Table).exe
 C:\Users\m.fawareh\Desktop\DataTable Example 1 (Create Offline Data Table and ListData)\obj\Debug\DataTable Example 1 (Create Offline Data Table).pdb
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\DataTable Example 1 (Create Offline Data Table and ListData)\bin\Debug\DataTable Example 1 (Create Offline Data Table).exe.config
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\DataTable Example 1 (Create Offline Data Table and ListData)\bin\Debug\DataTable Example 1 (Create Offline Data Table).exe
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\DataTable Example 1 (Create Offline Data Table and ListData)\bin\Debug\DataTable Example 1 (Create Offline Data Table).pdb
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\DataTable Example 1 (Create Offline Data Table and ListData)\obj\Debug\DataTable Example 1 (Create Offline Data Table and ListData).csproj.AssemblyReference.cache
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\DataTable Example 1 (Create Offline Data Table and ListData)\obj\Debug\DataTable Example 1 (Create Offline Data Table and ListData).csproj.CoreCompileInputs.cache
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\DataTable Example 1 (Create Offline Data Table and ListData)\obj\Debug\DataTable Example 1 (Create Offline Data Table).exe
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\DataTable Example 1 (Create Offline Data Table and ListData)\obj\Debug\DataTable Example 1 (Create Offline Data Table).pdb

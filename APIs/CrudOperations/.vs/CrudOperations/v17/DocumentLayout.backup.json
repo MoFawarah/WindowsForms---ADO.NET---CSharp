@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\DataTable Example 1 (Create Offline Data Table and ListData)\\",
+  "WorkspaceRootPath": "C:\\Users\\m.fawareh\\Desktop\\References\\APIs\\CrudOperations\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA4FFBFC-0582-4861-96CF-8EE109B853F7}|DataTable Example 1 (Create Offline Data Table and ListData).csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\datatable example 1 (create offline data table and listdata)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA4FFBFC-0582-4861-96CF-8EE109B853F7}|DataTable Example 1 (Create Offline Data Table and ListData).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B171CBE-7F0A-4FA0-BE66-4763D83D8C90}|CrudOperations.csproj|c:\\users\\m.fawareh\\desktop\\references\\apis\\crudoperations\\datasimulation\\studentdatasimulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B171CBE-7F0A-4FA0-BE66-4763D83D8C90}|CrudOperations.csproj|solutionrelative:datasimulation\\studentdatasimulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B171CBE-7F0A-4FA0-BE66-4763D83D8C90}|CrudOperations.csproj|c:\\users\\m.fawareh\\desktop\\references\\apis\\crudoperations\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B171CBE-7F0A-4FA0-BE66-4763D83D8C90}|CrudOperations.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -87,14 +91,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\DataTable Example 1 (Create Offline Data Table and ListData)\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\DataTable Example 1 (Create Offline Data Table and ListData)\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwCkAAAAEAAAAAAAAAA==",
+              "Title": "StudentDataSimulation.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\References\\APIs\\CrudOperations\\DataSimulation\\StudentDataSimulation.cs",
+              "RelativeDocumentMoniker": "DataSimulation\\StudentDataSimulation.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\References\\APIs\\CrudOperations\\DataSimulation\\StudentDataSimulation.cs",
+              "RelativeToolTip": "DataSimulation\\StudentDataSimulation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T13:39:53.461Z",
+              "WhenOpened": "2025-01-06T14:07:25.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\References\\APIs\\CrudOperations\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\References\\APIs\\CrudOperations\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:14:46.508Z",
               "EditorCaption": ""
             }
           ]
