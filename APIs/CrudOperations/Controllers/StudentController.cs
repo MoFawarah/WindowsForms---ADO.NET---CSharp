@@ -5,22 +5,20 @@ using CrudOperations.Models;
 
 namespace CrudOperations.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Students")]
     [ApiController]
     public class StudentController : ControllerBase
     {
-        private readonly StudentDataSimulation _studentDataSimulation;
 
-        public StudentController(StudentDataSimulation studentDataSimulation)
-        {
-            _studentDataSimulation = studentDataSimulation;
-        }
+      
 
-        [HttpGet]
-        public ActionResult<List<StudentResponseDTO>>  GetAllStudents()
+        [HttpGet("GetAll")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<IEnumerable<StudentResponseDTO>>GetAllStudents()
         {
 
-            var allStudents =_studentDataSimulation.StudentsList.ToList();
+            var allStudents = StudentDataSimulation.StudentsList.ToList();
             if (!allStudents.Any())
             {
                 return NotFound("No students are currently available.");
@@ -30,7 +28,48 @@ namespace CrudOperations.Controllers
             return Ok(allStudents);
         }
 
-        [HttpGet("GetStudentByID/{ID}")]
+
+        //[HttpGet("Passed", Name = "GetPassedStudents")]
+        [HttpGet("GetPassedStudents")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<IEnumerable<StudentResponseDTO>>GetPassedStudents()
+        {
+            var passedStudents = StudentDataSimulation.StudentsList.Where(x => x.Grade >= 50).ToList();
+            if (!passedStudents.Any())
+            {
+                return NotFound("No Passed Students Found");
+            }
+
+
+            return Ok(passedStudents);
+        }
+
+
+        [HttpGet("GetAvgGrade")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<double> GetAvgGrade()
+        {
+
+
+         
+            if (StudentDataSimulation.StudentsList.Count == 0)
+            {
+                return NotFound("No students are available to calculate the average.");
+            }
+
+            double avg = StudentDataSimulation.StudentsList.Average(x => x.Grade);  
+
+
+            return Ok(avg);
+        }
+
+
+        [HttpGet("GetStudentByID/{ID}", Name = "GetStudentByID")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult <StudentResponseDTO> GetStudentByID(int ID)
         {
             if (ID <= 0)
@@ -38,7 +77,7 @@ namespace CrudOperations.Controllers
                 return BadRequest("Invalid student ID. ID must be a positive integer.");
             }
 
-            var student = _studentDataSimulation.StudentsList.Find(x=> x.ID == ID);
+            var student = StudentDataSimulation.StudentsList.FirstOrDefault(x=> x.ID == ID);
             if(student == null)
                 return NotFound($"Student with ID {ID} was not found.");
 
@@ -54,7 +93,7 @@ namespace CrudOperations.Controllers
                 return BadRequest("Invalid student ID. ID must be a positive integer.");
             }
 
-            var student = _studentDataSimulation.StudentsList.Find(x => x.ID == ID);
+            var student = StudentDataSimulation.StudentsList.Find(x => x.ID == ID);
 
             if (student == null)
                 return NotFound($"Student with ID {ID} was not found.");
@@ -73,50 +112,64 @@ namespace CrudOperations.Controllers
 
 
         [HttpPut("UpdateStudentByID/{ID}")]
-        public ActionResult<StudentResponseDTO> UpdateStudentByID(int ID, [FromForm] StudentResponseDTO studentDTO)
+
+
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<StudentResponseDTO> UpdateStudentByID(int ID, StudentResponseDTO studentDTO)
         {
 
             if (ID <= 0)
             {
-                return BadRequest("Invalid student ID. ID must be a positive integer.");
+                return BadRequest("Invalid Student Data");
             }
 
-            var student = _studentDataSimulation.StudentsList.SingleOrDefault(x => x.ID == ID);
+            var student = StudentDataSimulation.StudentsList.FirstOrDefault(x => x.ID == ID);
      
 
             if (student == null)
                 return NotFound($"Student with ID {ID} was not found.");
-
-            if (ID != studentDTO.ID)
-            {
-                return BadRequest("The student ID in the URL does not match the ID in the request body.");
-            }
-
-
-            StudentResponseDTO oldStudent = new StudentResponseDTO()
-            {
-                ID = student.ID,
-                Name = student.Name,
-                Age = student.Age,
-                Grade = student.Grade
-            };
-
            
             student.Name = studentDTO.Name;
             student.Age = studentDTO.Age;
             student.Grade = studentDTO.Grade;
 
 
-            return Ok(new
-            {
-                message = "Student updated successfully.",
-                oldStudent,
-                student,
-            });
+            return Ok(student);
         }
 
 
+        [HttpPost("AddStudent")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<StudentResponseDTO> AddStudent(StudentResponseDTO newStudent)
+        {
+
+           if (newStudent == null || string.IsNullOrEmpty(newStudent.Name) || newStudent.Age< 0 || newStudent.Grade < 0)
+            {
+                return BadRequest("Invalid Student Data");
+            }
+
+            newStudent.ID = StudentDataSimulation.StudentsList.Count > 0 ? StudentDataSimulation.StudentsList.Max(x => x.ID) + 1 : 1;
+
+            
+           StudentDataSimulation.StudentsList.Add(newStudent);
+
+            return CreatedAtRoute("GetStudentByID", new { ID = newStudent.ID }, newStudent);  
+        
+        }
+
+
+
+
+
+
         [HttpDelete("DeleteStudentByID/{ID}")]
+
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<StudentResponseDTO> DeleteStudentByID(int ID)
         {
 
@@ -125,7 +178,7 @@ namespace CrudOperations.Controllers
                 return BadRequest("Invalid student ID. ID must be a positive integer.");
             }
 
-            var student = _studentDataSimulation.StudentsList.FirstOrDefault(x => x.ID == ID);
+            var student = StudentDataSimulation.StudentsList.FirstOrDefault(x => x.ID == ID);
 
 
             if (student == null)
@@ -133,25 +186,18 @@ namespace CrudOperations.Controllers
 
 
 
-            StudentResponseDTO oldStudent = new StudentResponseDTO()
+            /*StudentResponseDTO oldStudent = new StudentResponseDTO()
             {
                 ID = student.ID,
                 Name = student.Name,
                 Age = student.Age,
                 Grade = student.Grade
-            };
+            };*/
 
-            _studentDataSimulation.StudentsList.Remove(student);
-
-
+            StudentDataSimulation.StudentsList.Remove(student);
 
 
-
-            return Ok(new
-            {
-                message = "Student Removed successfully.",
-                oldStudent
-            });
+            return Ok(student);
         }
 
 

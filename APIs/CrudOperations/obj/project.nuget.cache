@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fY/hG8ZXzkg=",
+  "dgSpecHash": "hG4+gfcII+I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\m.fawareh\\Desktop\\References\\APIs\\CrudOperations\\CrudOperations.csproj",
+  "projectFilePath": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\CrudOperations\\CrudOperations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\m.fawareh\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\m.fawareh\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",

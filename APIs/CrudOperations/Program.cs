@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<StudentDataSimulation>();
+//builder.Services.AddScoped<StudentDataSimulation>();
 
 
 var app = builder.Build();

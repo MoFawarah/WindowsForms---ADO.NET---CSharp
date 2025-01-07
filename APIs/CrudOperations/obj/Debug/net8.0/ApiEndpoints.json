@@ -1,28 +1,43 @@
 [
   {
     "ContainingType": "CrudOperations.Controllers.StudentController",
-    "Method": "GetAllStudents",
-    "RelativePath": "api/Student",
-    "HttpMethod": "GET",
+    "Method": "AddStudent",
+    "RelativePath": "api/Students/AddStudent",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "newStudent",
+        "Type": "CrudOperations.Models.StudentResponseDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[CrudOperations.Models.StudentResponseDTO, CrudOperations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "CrudOperations.Models.StudentResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
-        "StatusCode": 200
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       }
     ]
   },
   {
     "ContainingType": "CrudOperations.Controllers.StudentController",
     "Method": "DeleteStudentByID",
-    "RelativePath": "api/Student/DeleteStudentByID/{ID}",
+    "RelativePath": "api/Students/DeleteStudentByID/{ID}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -42,13 +57,118 @@
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "CrudOperations.Controllers.StudentController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/Students/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CrudOperations.Models.StudentResponseDTO, CrudOperations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "CrudOperations.Controllers.StudentController",
+    "Method": "GetAvgGrade",
+    "RelativePath": "api/Students/GetAvgGrade",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "CrudOperations.Controllers.StudentController",
+    "Method": "GetPassedStudents",
+    "RelativePath": "api/Students/GetPassedStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CrudOperations.Models.StudentResponseDTO, CrudOperations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   },
   {
     "ContainingType": "CrudOperations.Controllers.StudentController",
     "Method": "GetStudentByID",
-    "RelativePath": "api/Student/GetStudentByID/{ID}",
+    "RelativePath": "api/Students/GetStudentByID/{ID}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -68,13 +188,32 @@
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
-    ]
+    ],
+    "EndpointName": "GetStudentByID"
   },
   {
     "ContainingType": "CrudOperations.Controllers.StudentController",
     "Method": "GetStudentNameByID",
-    "RelativePath": "api/Student/GetStudentNameByID/{ID}",
+    "RelativePath": "api/Students/GetStudentNameByID/{ID}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -100,7 +239,7 @@
   {
     "ContainingType": "CrudOperations.Controllers.StudentController",
     "Method": "UpdateStudentByID",
-    "RelativePath": "api/Student/UpdateStudentByID/{ID}",
+    "RelativePath": "api/Students/UpdateStudentByID/{ID}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -111,24 +250,9 @@
         "IsRequired": true
       },
       {
-        "Name": "ID",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Age",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Grade",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "studentDTO",
+        "Type": "CrudOperations.Models.StudentResponseDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -140,6 +264,24 @@
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   }
