@@ -1,0 +1,13 @@
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\bin\Debug\net8.0\Student_DAL.deps.json
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\bin\Debug\net8.0\Student_DAL.dll
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\bin\Debug\net8.0\Student_DAL.pdb
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\obj\Debug\net8.0\Student_DAL.csproj.AssemblyReference.cache
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\obj\Debug\net8.0\Student_DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\obj\Debug\net8.0\Student_DAL.AssemblyInfoInputs.cache
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\obj\Debug\net8.0\Student_DAL.AssemblyInfo.cs
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\obj\Debug\net8.0\Student_DAL.csproj.CoreCompileInputs.cache
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\obj\Debug\net8.0\Student_DAL.sourcelink.json
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\obj\Debug\net8.0\Student_DAL.dll
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\obj\Debug\net8.0\refint\Student_DAL.dll
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\obj\Debug\net8.0\Student_DAL.pdb
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\APIs\DAL\obj\Debug\net8.0\ref\Student_DAL.dll
