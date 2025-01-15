@@ -3,6 +3,7 @@
 //Mohammed Abu-Hadhoud
 
 using System;
+using System.Linq;
 
 namespace Main
 {
@@ -15,20 +16,16 @@ namespace Main
     {
         static void Main(string[] args)
         {
- 
-        var User1 = new
-        {
-            FirstName = "Abdullrahman",
-            FatherName = "Abdullah",
-            LastName = "Al-Akhzami",
-            Age = 21,
-            Gender = enGender.Male
-        };
 
-        string InfoCard1 = $"\n\n{(User1.Gender == enGender.Male ? "Mr." : "Ms.")} {User1.FirstName} {(User1.Gender == enGender.Male ? "Ben" : "Bent")} {User1.FatherName} {User1.LastName}, It was {User1.Age}";
-        string InfoCard2 = $"{(User1.Gender == enGender.Female? "Ms":"Mr")}";
+            Random rnd = new Random();
 
-        Console.WriteLine(InfoCard1);
+            for (int j = 0; j < 4; j++)
+            {
+                Console.WriteLine(rnd.Next(0,3)); 
+            }
+
+
+
 
         }
     }

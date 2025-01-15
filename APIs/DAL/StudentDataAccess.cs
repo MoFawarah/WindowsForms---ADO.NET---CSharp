@@ -157,7 +157,6 @@ namespace DAL
             return failedStudents;
         }
 
-
         public static async Task<double> GetAvgGrade()
         {
             double avgGrade;
@@ -168,7 +167,7 @@ namespace DAL
                     cmd.CommandType = CommandType.StoredProcedure;
                     await conn.OpenAsync();
 
-                    avgGrade =  await cmd.ExecuteScalarAsync() != DBNull.Value ? Convert.ToDouble(cmd.ExecuteScalar()) : 0; 
+                    avgGrade = await cmd.ExecuteScalarAsync() != DBNull.Value ? Convert.ToDouble(cmd.ExecuteScalar()) : 0;
 
                 }
             }
@@ -179,16 +178,16 @@ namespace DAL
 
         public static async Task<StudentDTO?> GetStudentByID(int Id)
         {
-   
-            using (SqlConnection  conn = new SqlConnection(_connectionString))
+
+            using (SqlConnection conn = new SqlConnection(_connectionString))
             {
-                using(SqlCommand cmd = new SqlCommand("SP_GetStudentById", conn))
+                using (SqlCommand cmd = new SqlCommand("SP_GetStudentById", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.Add("@StudentId", SqlDbType.Int).Value = Id;
 
 
-                    await conn.OpenAsync();    
+                    await conn.OpenAsync();
                     using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                     {
                         if (await reader.ReadAsync()) // Check if a row is returned
@@ -200,7 +199,7 @@ namespace DAL
                                 Age = reader.GetInt32(reader.GetOrdinal("Age")),
                                 Grade = reader.GetDecimal(reader.GetOrdinal("Grade")),
                             };
-                           
+
 
                         }
                         else
@@ -212,7 +211,7 @@ namespace DAL
             }
 
 
-    
+
 
         }
 
@@ -230,21 +229,30 @@ namespace DAL
                     cmd.Parameters.Add("@Age", SqlDbType.Int).Value = student.Age;
                     cmd.Parameters.Add("@Grade", SqlDbType.Decimal).Value = student.Grade;
 
-                    var outputParam = cmd.Parameters.Add("@NewStudentId", SqlDbType.Int);
-                    outputParam.Direction = ParameterDirection.Output;
+                    var outputIdParam = cmd.Parameters.Add("@NewStudentId", SqlDbType.Int);
+                    outputIdParam.Direction = ParameterDirection.Output;
 
-                    await conn.OpenAsync();
+                    //Or
+                    /*var outputIdParam = new SqlParameter("@NewStudentId", SqlDbType.Int)
+                    {
+                        Direction = ParameterDirection.Output,
+                    };
+                    cmd.Parameters.Add(outputIdParam);
+
+                    await conn.OpenAsync();*/
+
 
                     try
                     {
+                        await conn.OpenAsync();
                         await cmd.ExecuteNonQueryAsync();
 
-                        if (outputParam.Value == null)
+                        if (outputIdParam.Value == null)
                         {
                             throw new Exception("Failed to retrieve the new student ID.");
                         }
 
-                        int newStudentID = (int)outputParam.Value;
+                        int newStudentID = (int)outputIdParam.Value;
                         return await GetStudentByID(newStudentID);
                     }
                     catch (SqlException ex)
@@ -298,6 +306,37 @@ namespace DAL
         }
 
 
+        public static async Task<bool> DeleteStudent(int studentId)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(_connectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand("SP_DeleteStudent", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@StudentId", SqlDbType.Int).Value = studentId;
+                        
+                        await conn.OpenAsync();
+                        int rowsAffected = (int)await cmd.ExecuteScalarAsync();
 
+                        return rowsAffected == 1;
+                    }
+
+
+                }
+            }
+            catch (Exception ex)
+            {
+                // Consider logging the exception for debugging
+                throw new InvalidOperationException("An error occurred while deleting the student.", ex);
+            }
+
+        }
+
+        public static double Sum(double num1, double num2)
+        {
+            return num1 + num2;
+        }
     }
 }

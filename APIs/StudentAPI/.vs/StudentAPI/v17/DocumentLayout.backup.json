@@ -3,19 +3,25 @@
   "WorkspaceRootPath": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\StudentAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47728F4E-6332-4F02-824A-4195E9C96EBC}|..\\DAL\\Student_DAL.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\apis\\dal\\studentdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E94FCC0A-1ED4-4760-82F8-EAF5E27C7F52}|..\\Student_API\\Student_API.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\apis\\student_api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24717D3B-047C-4ECE-8767-6A2A9711CBCA}|..\\BLL\\Student_BLL.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\apis\\bll\\studentbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E94FCC0A-1ED4-4760-82F8-EAF5E27C7F52}|..\\Student_API\\Student_API.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\apis\\student_api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47728F4E-6332-4F02-824A-4195E9C96EBC}|..\\DAL\\Student_DAL.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\apis\\dal\\dtos\\studentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47728F4E-6332-4F02-824A-4195E9C96EBC}|..\\DAL\\Student_DAL.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\apis\\dal\\studentdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47728F4E-6332-4F02-824A-4195E9C96EBC}|..\\DAL\\Student_DAL.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\apis\\dal\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E94FCC0A-1ED4-4760-82F8-EAF5E27C7F52}|..\\Student_API\\Student_API.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\apis\\student_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E94FCC0A-1ED4-4760-82F8-EAF5E27C7F52}|..\\Student_API\\Student_API.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\apis\\student_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47728F4E-6332-4F02-824A-4195E9C96EBC}|..\\DAL\\Student_DAL.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\apis\\dal\\dtos\\studentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -97,39 +103,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\Student_API\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Student_API\\Program.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\Student_API\\Program.cs",
+              "RelativeToolTip": "..\\Student_API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:50:43.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\Student_API\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\Student_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\Student_API\\appsettings.json",
+              "RelativeToolTip": "..\\Student_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-10T14:50:39.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "StudentUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\DAL\\DTOs\\StudentUpdateDTO.cs",
               "RelativeDocumentMoniker": "..\\DAL\\DTOs\\StudentUpdateDTO.cs",
               "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\DAL\\DTOs\\StudentUpdateDTO.cs",
               "RelativeToolTip": "..\\DAL\\DTOs\\StudentUpdateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T13:55:10.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\DAL\\DTOs\\StudentDTO.cs",
               "RelativeDocumentMoniker": "..\\DAL\\DTOs\\StudentDTO.cs",
               "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\DAL\\DTOs\\StudentDTO.cs",
               "RelativeToolTip": "..\\DAL\\DTOs\\StudentDTO.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwA0AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T11:43:42.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\Student_API\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "..\\Student_API\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\Student_API\\Controllers\\StudentController.cs",
               "RelativeToolTip": "..\\Student_API\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAYwL0AAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAqwGwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T09:33:46.949Z",
               "EditorCaption": ""
@@ -142,20 +174,20 @@
               "RelativeDocumentMoniker": "..\\BLL\\StudentBusinessLogic.cs",
               "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\BLL\\StudentBusinessLogic.cs",
               "RelativeToolTip": "..\\BLL\\StudentBusinessLogic.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAawCMAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T09:33:32.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "StudentDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\DAL\\StudentDataAccess.cs",
               "RelativeDocumentMoniker": "..\\DAL\\StudentDataAccess.cs",
               "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\APIs\\DAL\\StudentDataAccess.cs",
               "RelativeToolTip": "..\\DAL\\StudentDataAccess.cs",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAEwOEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADIBAAAAAAAAAAAiwD8BAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T09:32:43.746Z",
               "EditorCaption": ""

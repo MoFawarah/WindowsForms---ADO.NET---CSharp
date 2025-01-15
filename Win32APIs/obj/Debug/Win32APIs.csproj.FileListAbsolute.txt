@@ -1,0 +1,7 @@
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\Win32APIs\bin\Debug\Win32APIs.exe.config
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\Win32APIs\bin\Debug\Win32APIs.exe
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\Win32APIs\bin\Debug\Win32APIs.pdb
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\Win32APIs\obj\Debug\Win32APIs.csproj.AssemblyReference.cache
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\Win32APIs\obj\Debug\Win32APIs.csproj.CoreCompileInputs.cache
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\Win32APIs\obj\Debug\Win32APIs.exe
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\Win32APIs\obj\Debug\Win32APIs.pdb

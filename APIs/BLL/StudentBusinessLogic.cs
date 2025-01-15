@@ -41,6 +41,16 @@ namespace BLL
             return await StudentDataAccess.UpdateStudent(Id, updateRequest);
         }
 
+        public async Task <bool> DeleteStudent(int studentId)
+        {
+           return await StudentDataAccess.DeleteStudent(studentId);
+        }
+
+        public double Sum(double num1, double num2)
+        {
+            return StudentDataAccess.Sum(num1, num2);
+        }
+
 
 
     }
