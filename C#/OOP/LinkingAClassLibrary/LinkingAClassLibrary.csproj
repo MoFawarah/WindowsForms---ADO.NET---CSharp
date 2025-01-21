@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1094FF9D-3A2A-4DAC-8774-5815A055F90B}</ProjectGuid>
+    <ProjectGuid>{71DC0307-F76D-4A94-B4E9-463F1DF74180}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOPProject</RootNamespace>
-    <AssemblyName>OOPProject</AssemblyName>
+    <RootNamespace>LinkingAClassLibrary</RootNamespace>
+    <AssemblyName>LinkingAClassLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,8 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MyFirstClassLibrary">
+      <HintPath>..\MyFirstClassLibrary\bin\Debug\MyFirstClassLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,20 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\DefaultClasses.cs" />
-    <Compile Include="Classes\MyPartialClass.cs" />
-    <Compile Include="Classes\MyPartialClass2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Whatever.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MyFirstClassLibrary\MyFirstClassLibrary.csproj">
-      <Project>{612871dd-6a11-4035-9f91-d65c4e550e47}</Project>
-      <Name>MyFirstClassLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

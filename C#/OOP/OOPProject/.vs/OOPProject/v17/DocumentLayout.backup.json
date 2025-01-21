@@ -5,6 +5,21 @@
     {
       "AbsoluteMoniker": "D:0:0:{1094FF9D-3A2A-4DAC-8774-5815A055F90B}|OOPProject.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\c#\\oop\\oopproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1094FF9D-3A2A-4DAC-8774-5815A055F90B}|OOPProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1094FF9D-3A2A-4DAC-8774-5815A055F90B}|OOPProject.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\c#\\oop\\oopproject\\classes\\mypartialclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1094FF9D-3A2A-4DAC-8774-5815A055F90B}|OOPProject.csproj|solutionrelative:classes\\mypartialclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612871DD-6A11-4035-9F91-D65C4E550E47}|..\\MyFirstClassLibrary\\MyFirstClassLibrary.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\c#\\oop\\myfirstclasslibrary\\mathclasslib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1094FF9D-3A2A-4DAC-8774-5815A055F90B}|OOPProject.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\c#\\oop\\oopproject\\classes\\mypartialclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1094FF9D-3A2A-4DAC-8774-5815A055F90B}|OOPProject.csproj|solutionrelative:classes\\mypartialclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1094FF9D-3A2A-4DAC-8774-5815A055F90B}|OOPProject.csproj|c:\\users\\m.fawareh\\desktop\\csharp\\windowsfroms\\c#\\oop\\oopproject\\classes\\defaultclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1094FF9D-3A2A-4DAC-8774-5815A055F90B}|OOPProject.csproj|solutionrelative:classes\\defaultclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,13 +101,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MathClassLib.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\C#\\OOP\\MyFirstClassLibrary\\MathClassLib.cs",
+              "RelativeDocumentMoniker": "..\\MyFirstClassLibrary\\MathClassLib.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\C#\\OOP\\MyFirstClassLibrary\\MathClassLib.cs",
+              "RelativeToolTip": "..\\MyFirstClassLibrary\\MathClassLib.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T14:39:06.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyPartialClass2.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\C#\\OOP\\OOPProject\\Classes\\MyPartialClass2.cs",
+              "RelativeDocumentMoniker": "Classes\\MyPartialClass2.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\C#\\OOP\\OOPProject\\Classes\\MyPartialClass2.cs",
+              "RelativeToolTip": "Classes\\MyPartialClass2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:52:47.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyPartialClass.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\C#\\OOP\\OOPProject\\Classes\\MyPartialClass.cs",
+              "RelativeDocumentMoniker": "Classes\\MyPartialClass.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\C#\\OOP\\OOPProject\\Classes\\MyPartialClass.cs",
+              "RelativeToolTip": "Classes\\MyPartialClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:52:25.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DefaultClasses.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\C#\\OOP\\OOPProject\\Classes\\DefaultClasses.cs",
+              "RelativeDocumentMoniker": "Classes\\DefaultClasses.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\C#\\OOP\\OOPProject\\Classes\\DefaultClasses.cs",
+              "RelativeToolTip": "Classes\\DefaultClasses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:10:41.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\C#\\OOP\\OOPProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\CSharp\\WindowsFroms\\C#\\OOP\\OOPProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAMMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEECAAAAAAAAAAAswGUCAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T07:52:41.466Z",
               "EditorCaption": ""

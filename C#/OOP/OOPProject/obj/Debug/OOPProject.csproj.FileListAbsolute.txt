@@ -5,3 +5,6 @@ C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\OOPProject\obj\Debug\OOPPr
 C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\OOPProject\obj\Debug\OOPProject.csproj.CoreCompileInputs.cache
 C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\OOPProject\obj\Debug\OOPProject.exe
 C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\OOPProject\obj\Debug\OOPProject.pdb
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\OOPProject\bin\Debug\MyFirstClassLibrary.dll
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\OOPProject\bin\Debug\MyFirstClassLibrary.pdb
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\OOPProject\obj\Debug\OOPProject.csproj.Up2Date

@@ -1,0 +1,6 @@
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\MyFirstClassLibrary\bin\Debug\MyFirstClassLibrary.dll
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\MyFirstClassLibrary\bin\Debug\MyFirstClassLibrary.pdb
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\MyFirstClassLibrary\obj\Debug\MyFirstClassLibrary.csproj.AssemblyReference.cache
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\MyFirstClassLibrary\obj\Debug\MyFirstClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\MyFirstClassLibrary\obj\Debug\MyFirstClassLibrary.dll
+C:\Users\m.fawareh\Desktop\CSharp\WindowsFroms\C#\OOP\MyFirstClassLibrary\obj\Debug\MyFirstClassLibrary.pdb
