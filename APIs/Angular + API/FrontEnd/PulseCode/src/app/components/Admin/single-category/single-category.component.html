@@ -1,0 +1,30 @@
+<div class="container">
+    <h1 class="mt-3">Edit Category</h1>
+</div>
+
+
+ <ng-container *ngIf="currentCategory; else notFound">
+<form #editForm="ngForm" class="container" (ngSubmit)="updateCategory()">
+    <!-- <div class="form-group ">
+        <label class="form-label mt-3" for="">Id</label>
+        <input type="text" class="form-control" name="id" value="{{currentCategory.id}}">
+    </div> -->
+
+    
+    <div class="form-group ">
+      <label class="form-label" for="">Name</label>
+      <input type="text" class="form-control" name="name" [(ngModel)]="currentCategory.name">
+    </div>
+    <div class="form-group">
+      <label class="form-label" >Url Handle</label>
+      <input type="text" class="form-control" name="urlHandle" [(ngModel)]="currentCategory.urlHandle">
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</ng-container>
+
+<ng-template #notFound>~
+  <div class="container">
+    <h1>No Category Available</h1>
+  </div>
+</ng-template>

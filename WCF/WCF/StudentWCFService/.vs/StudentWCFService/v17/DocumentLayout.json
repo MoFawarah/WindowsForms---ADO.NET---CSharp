@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E563A8D1-4E87-4303-8814-3F45DB768391}|StudentWCFService.csproj|C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E563A8D1-4E87-4303-8814-3F45DB768391}|StudentWCFService.csproj|solutionrelative:istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E563A8D1-4E87-4303-8814-3F45DB768391}|StudentWCFService.csproj|c:\\users\\m.fawareh\\desktop\\wcf\\studentwcfservice\\studentservice.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E563A8D1-4E87-4303-8814-3F45DB768391}|StudentWCFService.csproj|solutionrelative:studentservice.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E563A8D1-4E87-4303-8814-3F45DB768391}|StudentWCFService.csproj|C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\bll\\studentbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E563A8D1-4E87-4303-8814-3F45DB768391}|StudentWCFService.csproj|solutionrelative:bll\\studentbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E563A8D1-4E87-4303-8814-3F45DB768391}|StudentWCFService.csproj|c:\\users\\m.fawareh\\desktop\\wcf\\studentwcfservice\\dal\\studentdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E563A8D1-4E87-4303-8814-3F45DB768391}|StudentWCFService.csproj|solutionrelative:dal\\studentdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E563A8D1-4E87-4303-8814-3F45DB768391}|StudentWCFService.csproj|C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E563A8D1-4E87-4303-8814-3F45DB768391}|StudentWCFService.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\DAL\\StudentDataAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\StudentDataAccess.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\DAL\\StudentDataAccess.cs",
+              "RelativeToolTip": "DAL\\StudentDataAccess.cs",
+              "ViewState": "AgIAAPEAAAAAAAAAAAA4wBgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T09:02:10.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentService.svc.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\StudentService.svc.cs",
+              "RelativeDocumentMoniker": "StudentService.svc.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\StudentService.svc.cs",
+              "RelativeToolTip": "StudentService.svc.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T07:26:58.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentBusinessLogic.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\BLL\\StudentBusinessLogic.cs",
+              "RelativeDocumentMoniker": "BLL\\StudentBusinessLogic.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\BLL\\StudentBusinessLogic.cs",
+              "RelativeToolTip": "BLL\\StudentBusinessLogic.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAxwFUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T07:26:34.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\IStudentService.cs",
+              "RelativeDocumentMoniker": "IStudentService.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\IStudentService.cs",
+              "RelativeToolTip": "IStudentService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T07:26:04.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\WCF\\StudentWCFService\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-13T07:26:04.05Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

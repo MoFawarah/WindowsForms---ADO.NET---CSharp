@@ -1,0 +1,115 @@
+
+<div  class="container ">
+    <h1 class="mt-3">Add BlogPost</h1>
+
+    <form #addBlogPostForm="ngForm" (ngSubmit)="addBlogPost()">
+        <div class="mt-2 mb-3">
+
+        
+      <div class="mt-2">
+        <div class="mt-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" id="title" class="form-control" name="title" [(ngModel)]="data.title">
+        </div>
+      </div>
+
+
+      <div class="mt-2">
+        <div class="mt-3">
+            <label for="urlHandle" class="form-label">Url Handle</label>
+            <input type="text" id="urlHandle" class="form-control" name="urlHandle" [(ngModel)]="data.urlHandle">
+        </div>
+      </div>
+
+
+      <div class="mt-2">
+        <div class="mt-3">
+            <label for="shortDescription" class="form-label">Short Description</label>
+            <input type="text" id="shortDescription" class="form-control" name="shortDescription" [(ngModel)]="data.shortDescription">
+        </div>
+      </div>
+
+      <div class="mt-2">
+        <div class="mt-3">
+            <label for="content" class="form-label">Content</label>
+
+            <div class="d-flex flex-row">
+              <div class="p-2 col-6">
+                <textarea name="content" id="content" class="form-control" cols="10" rows="5" 
+                [(ngModel)]="data.content"
+                style="height: 350px; max-height: 350px;"
+                ></textarea>
+              </div>
+              <div class="p-2 col-6" style="max-height: 350px; overflow-y: scroll;">
+                <markdown [data]="data.content">
+
+                </markdown>
+        
+
+              </div>
+
+
+            </div>
+
+
+
+         
+        </div>
+      </div>
+
+
+      <div class="mt-2">
+        <div class="mt-3">
+            <label for="featuredImageUrl" class="form-label">Featured Image Url</label>
+
+            <ng-container *ngIf="data.featuredImageUrl != null && data.featuredImageUrl !== ''">
+              <div>
+              <img style="height: 100px;" [src]="data.featuredImageUrl" class="img-fluid my-2" alt="Responsive image">
+            </div>
+            </ng-container>
+
+
+
+            <input type="text" id="featuredImageUrl" class="form-control" name="featuredImageUrl" [(ngModel)]="data.featuredImageUrl">
+        </div>
+      </div>
+
+      <div class="mt-2">
+        <div class="mt-3">
+            <label for="publishedDate" class="form-label">Published Date</label>
+            <input [min]="minDate" type="date" id="publishedDate" class="form-control" name="publishedDate" 
+            
+            [ngModel]="data.publishedDate | date: 'yyyy-MM-dd'"
+            (ngModelChange)="data.publishedDate=$event">
+        </div>
+      </div>
+
+      <div class="mt-2">
+        <div class="mt-3">
+            <label for="author" class="form-label">Author</label>
+            <input type="text" id="author" class="form-control" name="author" [(ngModel)]="data.author">
+        </div>
+      </div>
+
+      <div class="form-check mt-3">
+        <input name="isVisible" class="form-check-input" type="checkbox" id="isVisible" [(ngModel)]="data.isVisible">
+        <label class="form-check-label" for="isVisible">
+          Is Visible?
+        </label>
+      </div>
+
+      <div *ngIf="categoryData" class="container mt-5">
+        <h2>Categories</h2>
+        <select name="categoriesID" id="categoriesID" class="form-select" multiple [(ngModel)]="data.categoriesID">
+            <option *ngFor="let category of categoryData" [value]="category.id">{{category.name}}</option>
+        </select>
+      </div>
+
+      <div class="mt-3">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+
+    </div>
+
+    </form>
+</div>

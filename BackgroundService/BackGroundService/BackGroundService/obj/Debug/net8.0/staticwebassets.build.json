@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "thbptmLVvHMVMsLq/vfrsb59/g5PqpYeCPEjcXbUaVM=",
+  "Source": "BackGroundService",
+  "BasePath": "_content/BackGroundService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\m.fawareh\\Desktop\\Project 01\\BackEnd\\CodePulse.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{687B9371-A271-4F3D-861F-8C967FB033C0}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\m.fawareh\\desktop\\project 01\\backend\\codepulse.api\\codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687B9371-A271-4F3D-861F-8C967FB033C0}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687B9371-A271-4F3D-861F-8C967FB033C0}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\m.fawareh\\desktop\\project 01\\backend\\codepulse.api\\codepulse.api\\dtos\\blogpostdto\\blogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687B9371-A271-4F3D-861F-8C967FB033C0}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\dtos\\blogpostdto\\blogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687B9371-A271-4F3D-861F-8C967FB033C0}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\m.fawareh\\desktop\\project 01\\backend\\codepulse.api\\codepulse.api\\dtos\\categorydto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687B9371-A271-4F3D-861F-8C967FB033C0}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\dtos\\categorydto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\Project 01\\BackEnd\\CodePulse.API\\CodePulse.API\\DTOs\\CategoryDTO\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\DTOs\\CategoryDTO\\CategoryDTO.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\Project 01\\BackEnd\\CodePulse.API\\CodePulse.API\\DTOs\\CategoryDTO\\CategoryDTO.cs",
+              "RelativeToolTip": "CodePulse.API\\DTOs\\CategoryDTO\\CategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:31:34.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlogPostRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\Project 01\\BackEnd\\CodePulse.API\\CodePulse.API\\DTOs\\BlogPostDTO\\BlogPostRequestDTO.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\DTOs\\BlogPostDTO\\BlogPostRequestDTO.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\Project 01\\BackEnd\\CodePulse.API\\CodePulse.API\\DTOs\\BlogPostDTO\\BlogPostRequestDTO.cs",
+              "RelativeToolTip": "CodePulse.API\\DTOs\\BlogPostDTO\\BlogPostRequestDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:09:52.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogPostsController.cs",
+              "DocumentMoniker": "C:\\Users\\m.fawareh\\Desktop\\Project 01\\BackEnd\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostsController.cs",
+              "ToolTip": "C:\\Users\\m.fawareh\\Desktop\\Project 01\\BackEnd\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
+              "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAqwFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T12:16:45.82Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

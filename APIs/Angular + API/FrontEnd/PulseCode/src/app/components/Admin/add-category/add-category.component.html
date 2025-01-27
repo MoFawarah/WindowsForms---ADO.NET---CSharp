@@ -1,0 +1,21 @@
+
+<div class="container">
+<form #addCategoryForm="ngForm" (ngSubmit)="addCategory()">
+    <h1 class="my-4">Add Category</h1>
+    <div class="mb-3">
+      <label for="name" class="form-label">Category Name</label>
+      <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelp" [(ngModel)]="model.name">
+
+    </div>
+    <div class="mb-3">
+      <label for="urlHandle" class="form-label">Category Url</label>
+      <input type="text" class="form-control" name="urlHandle" id="urlHandle" [(ngModel)]="model.urlHandle">
+    </div>
+     
+    <div class="mt-3" >
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+    </div>
+  </form>
+</div>
+
